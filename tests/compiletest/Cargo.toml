@@ -1,0 +1,8 @@
+[package]
+name = "compiletest"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.63.0"
+
+[dependencies]
+hex = { package = "hex-conservative", path = "../../" }
